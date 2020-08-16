@@ -37,7 +37,6 @@ body{
 }
 .title-wrapper p{
   text-align: center;
-  /* padding-right: 20px; */
 }
 
 .header-right{
@@ -225,7 +224,6 @@ footer{
     float: none;
   }
   .logo-mark{
-    /* padding-top: 0.2vw; */
     width: 10vw;
     height: auto;
   }
