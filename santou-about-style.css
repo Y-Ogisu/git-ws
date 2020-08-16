@@ -1,0 +1,330 @@
+*{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+.clear{
+  clear: both;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* ここまで全体への記述 */
+/* ここから各要素への記述 */
+body{
+  border-top:8px solid rgb(1, 38, 119);
+}
+.title-wrapper{
+  width: 500px;
+  float: left;
+}
+.logo-mark{
+  float: left;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.title-logo2{
+  padding:6px 0px 0px 5px;
+  font-size: 40px;
+  float: left;
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgb(1, 38, 119);
+}
+.title-wrapper p{
+  text-align: center;
+  /* padding-right: 20px; */
+}
+
+.header-right{
+  float: right;
+  padding: 20px 50px 10px 0px;
+  width: 170px;
+}
+
+.header-right span{
+  padding: 0px 5px;
+  margin-right: 10px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 6px;
+}
+.header-right ul{
+  margin-top: 15px;
+  width: 164px;
+}
+.header-right li{
+  margin-top: 2px;
+}
+.open-hour{
+  margin-top: 5px;
+  font-size: 11px;
+  padding: 5px;
+  border: 1px solid rgb(128, 128, 128);
+  width: 152px;
+}
+.header-menu ul{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.header-menu li{
+  width: 25%;
+  flex: auto;
+  background-color: rgb(1, 38, 119);
+  border-right:1px solid rgba(255, 255, 255, 0.5);
+}
+.header-menu a{
+  padding-top: 15px;
+  
+  font-size: 16px ;
+  flex: auto;
+  color: white;
+  
+  display: inline-block;
+  width:100%;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+.header-menu a:hover{
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.329);
+}
+.header-menu a:active{
+  background-color: rgba(0, 0, 0, 0.329);
+}
+.message-wrapper{
+  padding: 10px 0px;
+  height: auto;
+  width: 100%;
+  background-image: url(soybean-field.jpg);
+  background-size: cover;
+}
+.message-container{
+  width: 75%;
+  padding-bottom: 10px;
+  background-color: rgba(240, 240, 240, 0.753);
+  margin: 0px auto;
+  text-align: center;
+}
+.message-container h1{
+  padding: 15px 0px 10px 0px;
+  width: 85%;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0px auto;
+  border-bottom:1px dotted black;
+}
+.about-content{
+  text-align: left;
+  width: 85%;
+  margin: 0px auto;
+  border-bottom: 1px dotted black;
+}
+.message-container h2{
+  padding: 6px 0px 6px 6px;
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+}
+.business{
+  float: left;
+}
+.business-contents{
+  float: right;
+}
+.message-container p{
+  display: inline-block;
+  padding: 6px 0px;
+  width: 64%;
+  text-align: left;
+}
+.relation-left{
+  width: 100px !important;
+}
+.about-content h3{
+  font-weight: normal;
+  font-size: 12px;
+  display: inline;
+}
+.message-container ul{
+  padding: 6px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: left;
+}
+.message-container li{
+  list-style: circle;
+  flex: auto;
+  width: 49%;
+  font-size: 15px;
+}
+footer{
+  color: rgba(255, 255, 255, 0.856);
+  background-color: rgb(0, 20, 63);
+}
+.footer-left{
+  float: left;
+  width: 260px;
+}
+.footer-left h1{
+  padding: 10px 0px 0px 10px;
+  font-size: 18px;
+}
+.footer-left p{
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.footer-right{
+  padding-top: 10px;
+  float: right;
+  width: 470px;
+  
+}
+.footer-right div{
+  display: inline-block;
+  width: 24%;
+}
+.footer-right h1{
+  font-weight: normal;
+  text-align: center;
+  font-size: 12px;
+  border-right:1px solid white;
+}
+
+.copy-right{
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+@media(max-width:770px){
+  header{
+    text-align: center;
+  }
+  .title-wrapper{
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    float: none;
+  }
+  .logo-mark{
+    /* padding-top: 0.2vw; */
+    width: 10vw;
+    height: auto;
+  }
+  .title-logo2{
+    padding-top: 0.7vw;
+    font-size: 6vw;
+  }
+  .title-wrapper p{
+    font-size: 2.2vw;
+  }
+
+
+  .header-right{
+    float: none;
+    padding: 0px 0px;
+    width: 30%;
+    display: inline-block;
+  }
+  .header-right ul{
+    width: 100%;
+  }
+  .header-right li{
+    font-size: 2vw;
+  }
+  .header-right p{
+    font-size: 2vw;
+    width: 100%;
+    padding: 2px 0px;
+  }
+  .header-menu ul{
+    flex-wrap: wrap;
+
+  }
+  .header-menu li{
+    flex: auto;
+    width: 50%;
+    border: none;
+  }
+  .header-menu a{
+    border: 1px solid rgba(14, 26, 66, 0.384);
+    border-right: none;
+    padding-top: 2vw;
+    font-size: 3vw;
+    flex: auto;
+    color: white;
+    display: block;
+    width:100%;
+    height: 6vw;
+    text-align: center;
+  }
+  .message-container{
+    width: 90%;
+   
+  }
+  .message-container h1{
+    font-size: 4vw;
+  }
+  .message-container h2{
+    width: 27%;
+    font-size: 3vw;
+    padding-left: 0.6vw;
+  }
+  .message-container p{
+    width: 68%;
+    font-size: 2.3vw;
+  }
+  .relation-left{
+    width: 15vw !important;
+  }
+  .about-content h3{
+    font-size: 2vw;
+  }
+  .relation-right li{
+    font-size: 3vw;
+
+  }
+  .footer-right{
+    width: 100%;
+    display: flex;
+  }
+  .footer-left h1{
+    font-size: 3vw;
+  }
+  .footer-right div{
+    flex: auto;
+  }
+  .copy-right{
+    font-size: 2vw;
+  }
+
+}
+
+/* print setting */
+@media print {
+  body {
+  -webkit-print-color-adjust: exact;
+  top:0 !IMPORTANT;
+  left:0 !IMPORTANT;
+  width:200mm !IMPORTANT;
+  height:290mm !IMPORTANT;
+  }
+  }
