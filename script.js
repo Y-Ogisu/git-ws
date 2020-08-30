@@ -1,5 +1,5 @@
 $(function(){
-  $('.open-hour').css('color','red');
+  $('.open-hour').css('color','blue');
 
 
 
