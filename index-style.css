@@ -1,103 +1,3 @@
-*{
-  padding: 0px 0px;
-  margin: 0px 0px;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
-.clear{
-  clear: both;
-}
-li{
-  list-style: none;
-}
-a{
-  text-decoration: none;
-}
-/* ここまで全体への記述 */
-/* ここから各要素への記述 */
-body{
-  border-top:8px solid rgb(1, 38, 119);
-}
-.title-wrapper{
-  width: 500px;
-  float: left;
-}
-.logo-mark{
-  float: left;
-  height: 70px;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-.title-logo2{
-  padding:6px 0px 0px 5px;
-  font-size: 40px;
-  float: left;
-  font-weight: bold;
-  margin-top: 20px;
-  color: rgb(1, 38, 119);
-}
-.title-wrapper p{
-  text-align: center;
-  /* padding-right: 20px; */
-}
-
-.header-right{
-  float: right;
-  padding: 20px 50px 10px 0px;
-  width: 170px;
-}
-
-.header-right span{
-  padding: 0px 5px;
-  margin-right: 10px;
-  color: aliceblue;
-  background-color: black;
-  border-radius: 6px;
-}
-.header-right ul{
-  margin-top: 15px;
-  width: 164px;
-}
-.header-right li{
-  margin-top: 2px;
-}
-.open-hour{
-  margin-top: 5px;
-  font-size: 11px;
-  padding: 5px;
-  border: 1px solid rgb(128, 128, 128);
-  width: 152px;
-}
-.header-menu ul{
-  width: 100%;
-  display: flex;
-  margin-top: 20px;
-}
-.header-menu li{
-  width: 25%;
-  flex: auto;
-  background-color: rgb(1, 38, 119);
-  border-right:1px solid rgba(255, 255, 255, 0.5);
-}
-.header-menu a{
-  padding-top: 15px;
-  
-  font-size: 16px ;
-  flex: auto;
-  color: white;
-  
-  display: inline-block;
-  width:100%;
-  height: 35px;
-  text-align: center;
-  vertical-align: middle;
-}
-.header-menu a:hover{
-  transition: all 0.5s;
-  background-color: rgba(0, 0, 0, 0.329);
-}
-.header-menu a:active{
-  background-color: rgba(0, 0, 0, 0.329);
-}
 .message-wrapper{
   height: 60vw;
   width: 100%;
@@ -109,6 +9,7 @@ body{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0));
   
 }
+
 .message-container h1{
   color: aliceblue;
   padding-right: 20px;
@@ -124,114 +25,9 @@ body{
   font-size: 20px;
   text-align: right;
 }
-footer{
-  color: rgba(255, 255, 255, 0.856);
-  background-color: rgb(0, 20, 63);
-}
-.footer-left{
-  float: left;
-  width: 260px;
-}
-.footer-left h1{
-  padding: 10px 0px 0px 10px;
-  font-size: 18px;
-}
-.footer-left p{
-  font-size: 10px;
-  padding-left: 10px;
-}
-
-.footer-right{
-  padding-top: 10px;
-  float: right;
-  width: 470px;
-  
-}
-.footer-right div{
-  display: inline-block;
-  width: 24%;
-}
-.footer-right h1{
-  font-weight: normal;
-  text-align: center;
-  font-size: 12px;
-  border-right:1px solid white;
-}
-
-.copy-right{
-  padding-top: 10px;
-  font-size: 12px;
-  text-align: center;
-}
-
-
-
-
-
-
 
 
 @media(max-width:770px){
-  header{
-    text-align: center;
-  }
-  .title-wrapper{
-    text-align: center;
-    width: 80%;
-    margin: 0px auto;
-    float: none;
-  }
-  .logo-mark{
-    width: 10vw;
-    height: auto;
-  }
-  .title-logo2{
-    padding-top: 0.7vw;
-    font-size: 6vw;
-  }
-  .title-wrapper p{
-    font-size: 2.2vw;
-  }
-
-
-  .header-right{
-    float: none;
-    padding: 0px 0px;
-    width: 30%;
-    display: inline-block;
-  }
-  .header-right ul{
-    width: 100%;
-  }
-  .header-right li{
-    font-size: 2vw;
-  }
-  .header-right p{
-    font-size: 2vw;
-    width: 100%;
-    padding: 2px 0px;
-  }
-  .header-menu ul{
-    flex-wrap: wrap;
-
-  }
-  .header-menu li{
-    flex: auto;
-    width: 50%;
-    border: none;
-  }
-  .header-menu a{
-    border: 1px solid rgba(14, 26, 66, 0.384);
-    border-right: none;
-    padding-top: 2vw;
-    font-size: 3vw;
-    flex: auto;
-    color: white;
-    display: block;
-    width:100%;
-    height: 6vw;
-    text-align: center;
-  }
   .message-wrapper{
     height:550px;
   }
@@ -241,29 +37,4 @@ footer{
   .message-container p{
     font-size: 2.7vw;
   }
-  .footer-right{
-    width: 100%;
-    display: flex;
-  }
-  .footer-left h1{
-    font-size: 3vw;
-  }
-  .footer-right div{
-    flex: auto;
-  }
-  .copy-right{
-    font-size: 2vw;
-  }
-
 }
-
-/* print setting */
-@media print {
-  body {
-  -webkit-print-color-adjust: exact;
-  top:0 !IMPORTANT;
-  left:0 !IMPORTANT;
-  width:200mm !IMPORTANT;
-  height:290mm !IMPORTANT;
-  }
-  }
